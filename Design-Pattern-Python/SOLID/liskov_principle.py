@@ -44,14 +44,18 @@ class NotificationMananger:
         self.notification.notify(message)
         
         
-if __name__ == '__main__':
-    contact = Contact("vikas", "vikas.@gmail.com", "124142141")
+# if __name__ == '__main__':
+#     contact = Contact("vikas", "vikas.@gmail.com", "124142141")
     
-    sms_notification = SMS(contact.phone)
-    email_notification = Email(contact.email)
+#     sms_notification = SMS(contact.phone)
+#     email_notification = Email(contact.email)
     
-    notification_manager = NotificationMananger(sms_notification)
-    notification_manager.send("vikas hello") 
+#     notification_manager = NotificationMananger(sms_notification)
+#     notification_manager.send("vikas hello") 
     
-    notification_manager.notification = email_notification
-    notification_manager.send("Hey John")
+#     notification_manager.notification = email_notification
+#     notification_manager.send("Hey John")
+    
+    
+
+
